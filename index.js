@@ -62,6 +62,34 @@ const vocab_1 = {
   tông: "sect, school",
   Mật_tông:
     "dharma derived into two factions:The True Language (Mantrayàna) and the Excess Diamond (Vajrayàna).",
+  người: "man, person, individual",
+  người_ta: "people",
+  ta: "me",
+  khu_vực: "area",
+  khu: "area, district, zone, section, sector",
+  vực: "area, field",
+  tiếng: "language",
+  việt: "Vietnam",
+  thông_báo: "notification, to announce",
+  thông: "to communicate, to go through, to penetrate",
+  báo: "announce",
+  nội: "inside, internal",
+  quy: "regulations",
+  nội_quy: "rules and regulations",
+  hướng: "direction",
+  dẫn: "guide",
+  hướng_dẫn: "tutorial",
+  diều_kiện: "conditions, requirements",
+  diều: "thing, matter, detail, action, circumstance, affair article", // article
+  kiện: "package, parcel, bale", // package
+  điểm_đạo: "initiation",
+  điểm: "point",
+  đạo: "religion way, spirituality",
+  tài_khoản: "account",
+  tài: "money",
+  thắc_mắc: "question",
+  thắc: "tie",
+  mắc: "to be caught, entangled in",
 };
 
 console.log(vocab_1);

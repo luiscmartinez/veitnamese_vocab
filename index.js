@@ -621,6 +621,8 @@ const vocab_1 = {
   không_thể: "cannot; can't",
   quan: "mandarin, official, officer",
   vua: "king",
+  quay: "to turn, to turn around and go back",
+  về: "to return, to go back",
 };
 
 console.log(vocab_1);

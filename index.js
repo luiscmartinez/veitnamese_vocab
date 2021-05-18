@@ -843,6 +843,17 @@ const vocab_1 = {
   kinh_tế: "economy",
   kinh: "economic(s)",
   quả: "fruit",
+  đề_tài: "subject",
+  đề: "topic, title",
+  tham: "to participate, to confer, counsel, to collate, compare, consider",
+  khảo: "to do research, to examine",
+  loạt: "series",
+  dưới: "to be below, under, beneath, underneath.",
+  tóm_tắm: "to sum up, summarize",
+  tóm: "to nab, seize, to sum up",
+  tắm: "to be shortened, abbreviated, brief",
+  do_thái: "jew",
+  cha: "father",
 };
 
 console.log(vocab_1);

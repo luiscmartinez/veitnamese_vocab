@@ -7,6 +7,5 @@ const classifiers = {
   bộ: "set of",
   nhóm: "group of",
   đàn: "flock of, herd of",
-  thứ: "indicate a day of the week.",
   những: "indicate plurality",
 };

@@ -8,4 +8,6 @@ const classifiers = {
   nhóm: "group of",
   đàn: "flock of, herd of",
   những: "indicate plurality",
+  bữa: "meal",
+  món: "indicates food",
 };

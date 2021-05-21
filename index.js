@@ -43,7 +43,7 @@ const vocab_1 = {
   xem: "to see",
   bài_cần_xem: "posted to see",
   gặp: "meet",
-  tại: "at",
+  tại: "at; in",
   thế: "the world",
   đời: "the world; life; age, generation, posterity",
   thế_gian: "dishonest, cheating, tricky, crooked",

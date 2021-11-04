@@ -44,7 +44,7 @@ const vocab_1 = {
   bài_cần_xem: "posted to see",
   gặp: "meet",
   tại: "at; in",
-  thế: "the world",
+  thế: "the world; generation;",
   đời: "the world; life; age, generation, posterity",
   thế_gian: "dishonest, cheating, tricky, crooked",
   thế_giới: "limit, border, world realm",
@@ -100,7 +100,7 @@ const vocab_1 = {
   giáo: "teaching, tantra",
   thần: "angel, deity (mystery)",
   thần_bí: "mystery",
-  thầy: "teacher",
+  thầy: "teacher, master, professor; professional; scholar; educated person",
   già: "old",
   cư_sĩ: "buddhist term.",
   cư: "at home, reside",
@@ -132,7 +132,10 @@ const vocab_1 = {
   thơ: "mail",
   phép_mầu: "mircale",
   phép_lạ: "magic",
-  cầu: "beg",
+  cầu: {
+    "n": "bridge",
+    "vt": "to pray; to ask for",
+  },
   tức: "to mean",
   hìện: "show",
   thị: "seeing",
@@ -178,7 +181,7 @@ const vocab_1 = {
   tích: "to accumulate, to merit",
   chuyện: "story",
   tâm: "heart",
-  linh_hồn: "soul",
+  linh_hồn: "soul; mind",
   linh_ứng: "to have supernatural power",
   tâm_linh: "spirituality",
   có: "have; to exist; possess; own; is it",
@@ -329,7 +332,7 @@ const vocab_1 = {
   nền: "base, foundation, basis; background",
   dạo: "religion, the way",
   độ: "to save, help, aid",
-  quốc: "country",
+  quốc: "Native country one has left to go abroad",
   nước: "country",
   địa: "geography, earth",
   dất: "earth",
@@ -365,7 +368,7 @@ const vocab_1 = {
   thời_gian: "time",
   thời: "time",
   gian: "space",
-  thì: "time",
+  thì: "prime of youth; time",
   thì_giờ: "time",
   qua: "past",
   qua_thấy: "over see",
@@ -581,7 +584,7 @@ const vocab_1 = {
   mạnh: "to be strong, powerful",
   cường_quốc: "power, great nation",
   cho_đến: "until",
-  đến: "to arrive(at), to come(to), to get(to), rearch; to",
+  đến: "to arrive(at), to come(to), to get(to), reach; to",
   tiểu_quôc: "small-nation ",
   nằm: "to lie down",
   dồn_dập: "to come in great quantities, numbers",
@@ -675,7 +678,17 @@ const vocab_1 = {
   thống_trị: "to rule, to dominate",
   đân_chúng: "people",
   đân: "man, people",
-  con: "child",
+  con: [
+    {
+      "classif": "used with nouns of animals or animated objects"
+    },
+    {
+      "pron": "You, used by an oder person talking to a much younger person; I, used by a younger person when talking to a much other person."
+    },
+    {
+      "n": "child; children; son, daughter;"
+    }
+  ],
   xảy: "happen",
   lũ_lụt: "to flood",
   lũ: "flood",
@@ -853,6 +866,131 @@ const vocab_1 = {
   tắm: "to be shortened, abbreviated, brief",
   do_thái: "jew",
   cha: "father",
+  nên: "to develop into, result in",
+  môt: "one",
+  dế: "base, stand; root; emperor, ruler; imperialism",
+  chế: "system",
+  tài_chính: "finance",
+  dế_chế_tài_chính: "financial institutions",
+  châu_âu: "europe",
+  cuôi: "last",
+  đến_từ: "from; come from",
+  điên: "Mad, out of one's mind, insane",
+  điên_dạo: "insane, mad",
+  đien_rồ: "foolish",
+  thời_nay: "now; today",
+  loạn: "disorder, trouble, derangement;  to suffer from a mental disorder; 2) war; war time; to flee from the war, to be a war refugee.",
+  lạc: "to lose temporarily",
+  hết_thời: "have had ones day; out of time",
+  chấp_chính: "to assume power",
+  hạ: "1) take down; 2) drop; 3) take, capture, fall; 4) proclaim 5) send 6) defeat",
+  hoàng_đế: "emperor",
+  hoàng: "(abbibiation) for hoàng_tử = prince",
+  trời_che_đất_chở: "The sky covers you, the earth carries you; Heaven gives you a roof, Earth gives you a floor: nature protects people.",
+  trời_đáng_thánh: "Stuck by Heaven and wrestled down by Sporits; Person deserving a punishment from Heaven.",
+  trời_đất: "Heaven and earth; the universe.",
+  trời_phạt: "Punished by God",
+  trời_tròn_đất_vuông: "The sky is circular, the earth is square",
+  hành_trình: "Itinerary.",
+  bình_an: {
+    "adj": "peaceful, calm",
+    "syn": "bình yên",
+    "n": "peace"
+  },
+  thưa: [
+    {
+      "vt": "to replay; to report" 
+    },
+    {
+      "vt": "To accuse, to take someone to court"
+    },
+    {
+      "adj": {
+        "def": "sprase, scare, scanty, thin;",
+        "classifers": {
+          "giậu": "thin headge;",
+          "lưa": "sparse",
+          "luợc": "wide-toothed comb",
+          "nhặt": "thick and thin",
+          "rào": "thin fence",
+          "rừng": "thin forest",
+          "vải": "thin fabric;"
+        },
+        "syn": ["sưa"]
+      }
+    }
+  ],
+  con_thừa_tự: "son responsible for the cult of parents and ancestors",
+  tồ: "to die (used for emperors who for one reason or another were judged to be illegitimate. For  legitimate emperors, use băng, not tồ",
+  tổ: [
+    {
+      "n": ["ancestors", "founder of a profession or a philsophy"],
+      "classifers": {
+        "bá_x_mẫu": "paternal elder great uncle's wife",
+        "bạ_x_phụ": "paternal elder great uncle",
+        "cao": "paternal great-great grand-parents",
+        "cao_x_mẫu": "paternal great-great grandmother",
+        "đất": "native land; ancestral land",
+        "giỗ": "anniversary of the ancestors",
+        "mả": "ancestral burial ground;",
+        "ngoại": "maternal grandfather",
+        "nội": "paternal great-grandfather",
+        "thúc_x_mẫu": "paternal younger great uncle's wife",
+        "thục_x_phụ": "paternal younger great uncle" 
+      }
+    },
+    {
+      "n": "nest"
+    },
+    {
+      "n": "cell (in apolitical party)"
+    },
+    {
+      "adv": "even more"
+    }
+  ],
+  trì: [
+    {
+      "vt": "to maintain; to delay; to hold; to govern"
+    },
+    {
+      "n": "pond; ditch man-made lake",
+    },
+    {
+      "n": "floor; floor painted in red in the imperial palace;"
+    },
+    {
+      "vt": "to expand; to resonate; to spread; to pursue"
+    }
+  ],
+  trì_chí: {
+    "adj": "patient; perseverant",
+    "n": "perseverance; determination"
+  },
+  chú: [
+    {
+      "n": "uncle, father's youngest brother",
+      "classifers": {
+        cha: "arrogant"
+      }
+    },
+    {
+      "classif": "Used with nouns of young males",
+    },
+    {
+      "vt": "to focus on"
+    },
+    {
+      "vt": "to write a footnote; to explain"
+    },
+    {
+      "n": "mantra, incantation, magic formula",
+      "classifers": {
+        "niệm": "to recite an incantation",
+        "thần chú": "magic incantation"
+      }
+    }
+  ]
 };
 
 console.log(vocab_1);

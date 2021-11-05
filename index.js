@@ -990,7 +990,23 @@ const vocab_1 = {
         "thần chú": "magic incantation"
       }
     }
-  ]
+  ],
+  hé_mở: "half-open",
+  chút: [
+    {
+      n: "Chut, an ethnic minority of the Việt Mường group, living in Quảng Bình province"
+    },
+    {
+      n: "little bit; small quantity;",
+      classifers: {
+        "đôi": "somewhat",
+        một: "a little"
+      }
+    }
+  ],
+  kiếp_đời_đời: "Eternity; eternal life",
+  
+
 };
 
 console.log(vocab_1);

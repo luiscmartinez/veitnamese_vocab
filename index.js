@@ -100,6 +100,9 @@ const vocab_1 = {
   giáo: "teaching, tantra",
   thần: "angel, deity (mystery)",
   thần_bí: "mystery",
+  thần_khãi: "revelations  (magic)",
+  thần_linh: "Spirit; god; deity",
+  thánh_thần: "holy spirit",
   thầy: "teacher, master, professor; professional; scholar; educated person",
   già: "old",
   cư_sĩ: "buddhist term.",
@@ -133,14 +136,13 @@ const vocab_1 = {
   phép_mầu: "mircale",
   phép_lạ: "magic",
   cầu: {
-    "n": "bridge",
-    "vt": "to pray; to ask for",
+    n: "bridge",
+    vt: "to pray; to ask for",
   },
   tức: "to mean",
   hìện: "show",
   thị: "seeing",
   thị_hìện: "make appearance",
-  thánh_thần: "holy spirit",
   học: "study",
   nhật_ký: "diary",
   nhật: "daily",
@@ -245,6 +247,7 @@ const vocab_1 = {
   liên_kết: "to unite associate with",
   liên: "to joiin, associate, unite, ally",
   kết: "to fasten together; to end - conclude",
+  kết_duyên: "to get married",
   tìm_kiếm: "to seek, look for, search for",
   tìm: "to seek, look for, search for",
   kiếm: "to seek, look for, search for",
@@ -337,7 +340,6 @@ const vocab_1 = {
   địa: "geography, earth",
   dất: "earth",
   địa_mâữ: "mother earth",
-  thần_khãi: "revelations  (magic)",
   nam: "south",
   sơn: "mountain",
   hà: "river",
@@ -445,7 +447,6 @@ const vocab_1 = {
   phát: "to distribute; to emit, utter; to start, to breakout",
   thanh: "sound; tone, noise",
   viên: "offical, officer",
-  tình_dục: "sexual desire",
   vì: "because-by",
   nhưng_mà: "but",
   tuy_rằng: "though-that",
@@ -506,6 +507,8 @@ const vocab_1 = {
   biểu_tình: "demonstrate",
   biểu: "to express, manifest, demonstrate",
   tình: "feeling, sentiment; condition, state",
+  tình_dục: "sexual desire",
+  tình_cảm: "Feeling, sentiment, tenderness, sentimentality",
   thợ: "worker, craftman",
   thợ_mỏ: "miner",
   mỏ: "mine",
@@ -516,6 +519,7 @@ const vocab_1 = {
   sa_thải: "to fire, purge, dishonorable discharge",
   bị_sa: "to fall",
   bị_thải: "to dismiss, discard",
+  bị_phạt: "Punished; to recieve punishment",
   lừa: "to cheat, to decieve, trick",
   lừa_đảo: "to lie, to turn upside down.",
   đối: "(adj) to reply, to oppose, to cope with",
@@ -680,14 +684,14 @@ const vocab_1 = {
   đân: "man, people",
   con: [
     {
-      "classif": "used with nouns of animals or animated objects"
+      classif: "used with nouns of animals or animated objects",
     },
     {
-      "pron": "You, used by an oder person talking to a much younger person; I, used by a younger person when talking to a much other person."
+      pron: "You, used by an oder person talking to a much younger person; I, used by a younger person when talking to a much other person.",
     },
     {
-      "n": "child; children; son, daughter;"
-    }
+      n: "child; children; son, daughter;",
+    },
   ],
   xảy: "happen",
   lũ_lụt: "to flood",
@@ -849,6 +853,7 @@ const vocab_1 = {
   trả: "to payback, to give back",
   lời: "spoken word(s), utterances, statements",
   hoàn_tiền: "to refund, to return",
+  tiền_kiếp: "Previous life",
   tài_phiệt: "capitalist, oligarch, plutocrats",
   tài: "riches, wealth",
   phiệt: "clique",
@@ -886,127 +891,154 @@ const vocab_1 = {
   hạ: "1) take down; 2) drop; 3) take, capture, fall; 4) proclaim 5) send 6) defeat",
   hoàng_đế: "emperor",
   hoàng: "(abbibiation) for hoàng_tử = prince",
-  trời_che_đất_chở: "The sky covers you, the earth carries you; Heaven gives you a roof, Earth gives you a floor: nature protects people.",
-  trời_đáng_thánh: "Stuck by Heaven and wrestled down by Sporits; Person deserving a punishment from Heaven.",
+  trời_che_đất_chở:
+    "The sky covers you, the earth carries you; Heaven gives you a roof, Earth gives you a floor: nature protects people.",
+  trời_đáng_thánh:
+    "Stuck by Heaven and wrestled down by Sporits; Person deserving a punishment from Heaven.",
   trời_đất: "Heaven and earth; the universe.",
   trời_phạt: "Punished by God",
   trời_tròn_đất_vuông: "The sky is circular, the earth is square",
   hành_trình: "Itinerary.",
   bình_an: {
-    "adj": "peaceful, calm",
-    "syn": "bình yên",
-    "n": "peace"
+    adj: "peaceful, calm",
+    syn: "bình yên",
+    n: "peace",
   },
   thưa: [
     {
-      "vt": "to replay; to report" 
+      vt: "to replay; to report",
     },
     {
-      "vt": "To accuse, to take someone to court"
+      vt: "To accuse, to take someone to court",
     },
     {
-      "adj": {
-        "def": "sprase, scare, scanty, thin;",
-        "classifers": {
-          "giậu": "thin headge;",
-          "lưa": "sparse",
-          "luợc": "wide-toothed comb",
-          "nhặt": "thick and thin",
-          "rào": "thin fence",
-          "rừng": "thin forest",
-          "vải": "thin fabric;"
+      adj: {
+        def: "sprase, scare, scanty, thin;",
+        classifers: {
+          giậu: "thin headge;",
+          lưa: "sparse",
+          luợc: "wide-toothed comb",
+          nhặt: "thick and thin",
+          rào: "thin fence",
+          rừng: "thin forest",
+          vải: "thin fabric;",
         },
-        "syn": ["sưa"]
-      }
-    }
+        syn: ["sưa"],
+      },
+    },
   ],
   con_thừa_tự: "son responsible for the cult of parents and ancestors",
   tồ: "to die (used for emperors who for one reason or another were judged to be illegitimate. For  legitimate emperors, use băng, not tồ",
   tổ: [
     {
-      "n": ["ancestors", "founder of a profession or a philsophy"],
-      "classifers": {
-        "bá_x_mẫu": "paternal elder great uncle's wife",
-        "bạ_x_phụ": "paternal elder great uncle",
-        "cao": "paternal great-great grand-parents",
-        "cao_x_mẫu": "paternal great-great grandmother",
-        "đất": "native land; ancestral land",
-        "giỗ": "anniversary of the ancestors",
-        "mả": "ancestral burial ground;",
-        "ngoại": "maternal grandfather",
-        "nội": "paternal great-grandfather",
-        "thúc_x_mẫu": "paternal younger great uncle's wife",
-        "thục_x_phụ": "paternal younger great uncle" 
-      }
+      n: ["ancestors", "founder of a profession or a philsophy"],
+      classifers: {
+        bá_x_mẫu: "paternal elder great uncle's wife",
+        bạ_x_phụ: "paternal elder great uncle",
+        cao: "paternal great-great grand-parents",
+        cao_x_mẫu: "paternal great-great grandmother",
+        đất: "native land; ancestral land",
+        giỗ: "anniversary of the ancestors",
+        mả: "ancestral burial ground;",
+        ngoại: "maternal grandfather",
+        nội: "paternal great-grandfather",
+        thúc_x_mẫu: "paternal younger great uncle's wife",
+        thục_x_phụ: "paternal younger great uncle",
+      },
     },
     {
-      "n": "nest"
+      n: "nest",
     },
     {
-      "n": "cell (in apolitical party)"
+      n: "cell (in apolitical party)",
     },
     {
-      "adv": "even more"
-    }
+      adv: "even more",
+    },
   ],
   trì: [
     {
-      "vt": "to maintain; to delay; to hold; to govern"
+      vt: "to maintain; to delay; to hold; to govern",
     },
     {
-      "n": "pond; ditch man-made lake",
+      n: "pond; ditch man-made lake",
     },
     {
-      "n": "floor; floor painted in red in the imperial palace;"
+      n: "floor; floor painted in red in the imperial palace;",
     },
     {
-      "vt": "to expand; to resonate; to spread; to pursue"
-    }
+      vt: "to expand; to resonate; to spread; to pursue",
+    },
   ],
   trì_chí: {
-    "adj": "patient; perseverant",
-    "n": "perseverance; determination"
+    adj: "patient; perseverant",
+    n: "perseverance; determination",
   },
   chú: [
     {
-      "n": "uncle, father's youngest brother",
-      "classifers": {
-        cha: "arrogant"
-      }
+      n: "uncle, father's youngest brother",
+      classifers: {
+        cha: "arrogant",
+      },
     },
     {
-      "classif": "Used with nouns of young males",
+      classif: "Used with nouns of young males",
     },
     {
-      "vt": "to focus on"
+      vt: "to focus on",
     },
     {
-      "vt": "to write a footnote; to explain"
+      vt: "to write a footnote; to explain",
     },
     {
-      "n": "mantra, incantation, magic formula",
-      "classifers": {
-        "niệm": "to recite an incantation",
-        "thần chú": "magic incantation"
-      }
-    }
+      n: "mantra, incantation, magic formula",
+      classifers: {
+        niệm: "to recite an incantation",
+        "thần chú": "magic incantation",
+      },
+    },
   ],
   hé_mở: "half-open",
   chút: [
     {
-      n: "Chut, an ethnic minority of the Việt Mường group, living in Quảng Bình province"
+      n: "Chut, an ethnic minority of the Việt Mường group, living in Quảng Bình province",
     },
     {
       n: "little bit; small quantity;",
       classifers: {
-        "đôi": "somewhat",
-        một: "a little"
-      }
-    }
+        đôi: "somewhat",
+        một: "a little",
+      },
+    },
   ],
   kiếp_đời_đời: "Eternity; eternal life",
-  
-
+  phạm_tội: "To commit a crime; to commit a sin.",
+  cõi: {
+    n: "world; area; region, country",
+    classifers: {
+      bờ: "territory; national territory;",
+    },
+  },
+  u_minh: {
+    adj: "dark and bright",
+    classifers: {
+      cõi: "the netherworld; hell; Hades",
+      x_dị_lộ_x_hai_ngã: "the living and the dead cannot stay together",
+    },
+  },
+  hòa_thuận: [
+    {
+      modif: "in the best terms with",
+    },
+    { adj: "united; harmonized" },
+  ],
+  nào_có: "Is there anything?; There is nothing; nowhere to be found",
+  phạm_vào: "To infringe upon.",
+  chịu_phạt: "to be punished.",
+  thế_cho: "to replace, tocompensate",
+  tại_sao: "Why? What for?",
+  trần_thế: "this world",
+  hay_nói: "Talkative; talk about",
 };
 
 console.log(vocab_1);

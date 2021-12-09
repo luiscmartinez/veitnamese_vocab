@@ -173,7 +173,7 @@ const vocab_1 = {
   hành: "practice, act, execute, carryout",
   hành_đạo: "practice religion",
   thực_hành: "practice",
-  báo_cáo: "report",
+  báo_cáo: "report; give an account; recount; narrate; describe; provide details",
   cáo: "announce, report; to indict",
   chấm_điểm: "give grade",
   cúng: "to make religious ceremony",

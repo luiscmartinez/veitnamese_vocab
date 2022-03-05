@@ -173,7 +173,8 @@ const vocab_1 = {
   hành: "practice, act, execute, carryout",
   hành_đạo: "practice religion",
   thực_hành: "practice",
-  báo_cáo: "report; give an account; recount; narrate; describe; provide details",
+  báo_cáo:
+    "report; give an account; recount; narrate; describe; provide details",
   cáo: "announce, report; to indict",
   chấm_điểm: "give grade",
   cúng: "to make religious ceremony",
@@ -256,6 +257,7 @@ const vocab_1 = {
   tất_cả: "all",
   bài_viết: "writings, posts",
   bài: "lesson",
+  bài_thơ: "poem",
   trên: "on",
   đăng: "to post",
   được: "acceptable, fine, O.K; to obtain, to get",
@@ -718,6 +720,22 @@ const vocab_1 = {
   đảnh_lễ: "pay homage",
   đỉnh: "(đảnh) top, summit, peak, crest",
   vừa_vào: "just enter",
+  vừa: [
+    {
+      adj: "fitting; good",
+    },
+    {
+      adj: "just; enough; sufficient",
+    },
+    {
+      adj: "satisfied",
+      classifers: {
+        chưa: "not enough",
+        dễ: "not easy to satify",
+        không: "not fitting well",
+      },
+    },
+  ],
   mạng: "net",
   thông_tin: "to inform, information",
   tin: "to believe; news",
@@ -1039,6 +1057,84 @@ const vocab_1 = {
   tại_sao: "Why? What for?",
   trần_thế: "this world",
   hay_nói: "Talkative; talk about",
+  chuẩn: [
+    {
+      vt: "to prepare; to get ready",
+    },
+    {
+      vt: "to grant; to approve",
+      classifers: {
+        phê: "to approve",
+      },
+    },
+    {
+      adj: "correct, precise",
+    },
+    {
+      vt: "to except, to make an exception of, to exclude, to leave out",
+    },
+  ],
+  chuẩn_bị:
+    "to prepare; to get ready; to make perperations to lay the groundwork",
+  đệ_tử: "disciple, student",
+  biến: [
+    {
+      n: "trouble, turmoil, strife, disturbance; disaster, calamity",
+      classifers: {
+        binh: "war; military conflict",
+        chính: "political upheaval",
+        diễn: "progression of events",
+        đại: "great upheaval",
+        đột: "sudden change",
+        quốc: "national conflict , national revolution",
+        tai: "disaster; mishap; misforbime: accident.",
+      },
+    },
+    {
+      vi: "To disappear, to vanish; to fade away, to dissolve, to evaporate, to cease to be seen, to dissipate, to melt away. ",
+    },
+    {
+      vi: "To change, to be changed, to be transformed, to turn into",
+      mường: "biển",
+      classifers: {
+        bất: "unchanging, constant, immutable, permanent",
+        cải: "to renovate, to rearrange, to remodel, to improve.",
+      },
+    },
+    {
+      as: "bao biến: immense ; quyển biến, to readjust to the situations.",
+    },
+  ],
+  diễn_biến: {
+    n: "events, occurrences",
+  },
+  Thế_Chiến: {
+    n: "World War",
+  },
+  đệ: [
+    {
+      n: "younger brother; also used as pronoun, I, your younger brother",
+      classifers: {
+        bào: "brother",
+        biểu: "cousin",
+        hiền: "you, my younger brother",
+        sư: "younger classmate",
+        tiểu: "younger brother",
+      },
+    },
+    {
+      vt: "to submit; to send on",
+    },
+    {
+      pref: "for ordinal numbers",
+      syn: "thứ",
+      example: {
+        x_nhất: "first",
+        x_nhị: "second",
+        x_tam: "third",
+      },
+    },
+  ],
 };
 
 console.log(vocab_1);

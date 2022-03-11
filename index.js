@@ -1135,6 +1135,74 @@ const vocab_1 = {
       },
     },
   ],
+  khân: "as in lần khân, impertinent, impudent, insolent, fresh",
+  lơ_đễnh: {
+    adj: "absent-minded, distracted, preoccupied, lost in thought",
+    syn: "lơ đãng",
+  },
+  lơ_đãng: {
+    adj: "absent-minded, distracted, preoccupied, lost in thought",
+  },
+  bản_bao: {
+    vt: "to admonish, to advise",
+  },
+  tuôn: {
+    vt: "to flow out precipitously.",
+  },
+  tuôn_chạy: {
+    vi: "to rush down, to rush out",
+  },
+  chạy: [
+    {
+      vt: "To run; to flee",
+      classifers: {
+        bỏ: "to run away; to flee",
+        chưa_đánh_đã: "to run away before engaging the enemy",
+        chưa_đi_đả: "to start running before learning how to walk",
+        máy: "working engine",
+        trốn: "to flee; to be a fugitive",
+        vùng: "to run away suddenly",
+        vừa_đánh_vừa: "to run while fighting",
+        xe: "moving vehicle",
+      },
+    },
+    {
+      chạy: {
+        adj: "Smooth; brisk",
+        classifers: {
+          buôn_bán: "to do brisk trading;to do a brisk business",
+          hàng: "merchandise that sells easily, quickly",
+          việc: "business that goes smoothly",
+        },
+      },
+    },
+  ],
+  về_sau: {
+    modif: "in the future, afterwards",
+  },
+  văn_hiến: [
+    {
+      n: "Civilization of a high level; civilization founded on institutions; structured civilization",
+    },
+    {
+      adj: "civilized",
+      classifers: {
+        nước: "civilized nation, civilized country",
+      },
+    },
+  ],
+  Thăng_Long: {
+    n: "Rising Dragon, an old name of Hanoi, established as capital of Vietnam at the beginning of the Ly  Dynasty (1009-1225)",
+  },
+  trời_cao_đất_rộng: {
+    phr: "the sky is high, the earth is wide",
+  },
+  nhương: {
+    vt: "to seize, to usurp;",
+    classifers: {
+      nhiễu: "troubled chaotic",
+    },
+  },
 };
 
 console.log(vocab_1);

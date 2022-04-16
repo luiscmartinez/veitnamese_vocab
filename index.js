@@ -1210,13 +1210,13 @@ const vocab_1 = {
       tứ: "in all the four directions; on the four sides; all around",
     },
   },
-  phía_sua: {
+  phía_sau: {
     adj: "behind, in the back",
   },
   phía_trước: {
     adv: "ahead, upfront",
   },
-  sua: {
+  sau: {
     adv: "behind; after",
     classifers: {
       của: "back door",

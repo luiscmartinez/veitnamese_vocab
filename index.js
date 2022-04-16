@@ -1198,11 +1198,90 @@ const vocab_1 = {
     phr: "the sky is high, the earth is wide",
   },
   nhương: {
-    vt: "to seize, to usurp;",
+    vt: "to seize, to usurp",
     classifers: {
       nhiễu: "troubled chaotic",
     },
   },
+  phía: {
+    n: "side, direction",
+    classifers: {
+      bốn: "in all the four directions; on the four sides; all around",
+      tứ: "in all the four directions; on the four sides; all around",
+    },
+  },
+  phía_sua: {
+    adj: "behind, in the back",
+  },
+  phía_trước: {
+    adv: "ahead, upfront",
+  },
+  sua: {
+    adv: "behind; after",
+    classifers: {
+      của: "back door",
+      đằng: "behind, in the back",
+      đến: "to arrive late; late comer",
+      đi: "to walk behind; to follow",
+      đởi: "next life; next generation; life after death",
+      mai: "later on; in the distant future",
+      mái: "roof in the back",
+      năm: "next year",
+      ngàn: "thousand years later; after death",
+      ngày: "the next day",
+      phía: "behind, in the back",
+      theo: "to follow",
+      tới: "to arrive late",
+      trước: "before and after",
+      vợ: "second wife",
+      vườn: "backyard",
+    },
+  },
+  sua_khi: {
+    adv: "after, after that",
+  },
+  trước: {
+    prep_adv:
+      "before; prior to; in advance; first; first and foremost; in front; upfront; ahead of time",
+    classifers: {
+      ăn_trên_ngồi:
+        "to lead; to be given the seat of honor; to enjoy the privilege of a VIP",
+      ăn_x_trả_sau: "to eat first, to pay later; to buy on credit",
+      biết: "to know in advance",
+      chồng: "the late husband; the former husband; the ex",
+      có: "to pre-exist; pre-existing",
+      có_x_có_sau:
+        "in an orderly manner; there is a beginning and an end; to be loyal; to be faithful",
+      đi: "to lead; to take the lead; to go first",
+      đến: "to arrive first",
+      đoán: "to foresee; to forecast",
+      đời: "in the past",
+      hay: "to know in advance",
+      nói: "to foretell",
+      về: "to arrive earlier; to arrive first; in the past; formerly",
+      vợ: "the late wife, the former wife; the ex",
+    },
+  },
+  trước_khi: {
+    adv: "before",
+  },
+  khi: [
+    { vt: "to despise", classifers: { khinh: "to despise" } },
+    {
+      n: "moment; time",
+      adv: "when",
+      classifers: {
+        chẳng_mấy: "rarely; not often;",
+        đôi: "sometimes",
+        ít: "rarely; every now and then",
+        lắm: "often",
+        mấy: "not too many times; rarely",
+        một: "once, since;",
+        nhiều: "often",
+      },
+    },
+    { vt: "to deceive" },
+  ],
 };
 
 console.log(vocab_1);
